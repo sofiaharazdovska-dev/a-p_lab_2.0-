@@ -1,0 +1,23 @@
+#include <iostream>
+//text for commit
+using namespace std;
+
+int main() 
+{
+    cout << "Hello, World!" << endl;
+
+    int p = 1;
+    int i = 1;
+
+    while (i <= 10) 
+    {
+        p *= i;
+        i++;
+    }
+
+    cout << "p = " << p << " i = " << i << endl;
+// testing 2
+    // Замість system("pause") для Mac:
+    cin.get(); 
+    return 0;
+}
