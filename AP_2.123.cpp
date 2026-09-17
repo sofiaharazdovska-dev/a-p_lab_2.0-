@@ -16,7 +16,7 @@ int main()
         p *= i;
         i++;
     }
-
+   // second test line for PR
     cout << "p = " << p << " i = " << i << endl;
 // testing 2
     // Замість system("pause") для Mac:
